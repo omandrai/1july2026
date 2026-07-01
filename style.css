@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 5px 80px;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 70%;
+}
+.btn{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-one{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.btn-two{
+    padding: 5px 10px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+}
+.material-icons{
+    color: white;
+}
