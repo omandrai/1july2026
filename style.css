@@ -1,41 +1,101 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-nav{
+.master{
+    background-image: url('./IN-en-20260629-TRIFECTA-perspective_76b17e8c-cff9-4c65-9938-08ca5029be6b_large.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.main {
+    color: white;
+    background: linear-gradient(90deg, rgba(10, 10, 10, 0.9) 0%, rgba(32, 32, 32, 0.7) 50%, rgba(0, 0, 0, 0.9) 100%);
+    height: inherit;
+}
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
     padding: 5px 80px;
 }
-.logo{
+
+.logo {
     width: 20%;
 }
-.logo img{
+
+.logo img {
     width: 70%;
 }
-.btn{
+
+.btn {
     width: 20%;
     display: flex;
     justify-content: space-evenly;
 }
-.btn-one{
+
+.btn-one {
     background: none;
     border: 1px solid white;
     color: white;
     padding: 5px 10px;
     display: flex;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 5px;
 }
-.btn-two{
+
+.btn-two {
     padding: 5px 10px;
+    color: white;
     background-color: red;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
-.material-icons{
+
+.material-icons {
     color: white;
+}
+
+.hero-section {
+    display: flex;
+    height: 85%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 60%;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.hero-section h1 {
+    font-size: 42px;
+    width: 100%;
+}
+
+.in-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.in-input {
+    width: 59%;
+    background-color: rgba(220, 220, 220,0.1);
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.in-btn {
+    font-size: 18px;
+    font-weight: 600;
+    width: 39%;
+    padding: 20px 30px;
 }
